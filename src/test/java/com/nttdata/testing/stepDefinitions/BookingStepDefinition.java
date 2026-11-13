@@ -33,6 +33,7 @@ public class BookingStepDefinition {
     @Given("el {actor} establece el endpoint de booking")
     public void elActorEstableceElEndpointDeBooking(Actor actor) {
         actor.whoCan(CallAnApi.at("https://restful-booker.herokuapp.com"));
+        /// //
     }
 
     @When("el {actor} realiza una solicitud GET")
